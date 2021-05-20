@@ -1,0 +1,32 @@
+* {
+    background-color: #18191A;
+    font-family: Helvetica;
+}
+
+.run {
+
+}
+
+.bulb {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.green {
+    background-color: rgb(9, 252, 49);
+}
+
+.red {
+    background-color: rgb(255, 55, 55);
+}
+
+.yellow {
+    background-color: rgb(238, 255, 0);
+}
+
+.blue {
+    background-color: rgb(8, 177, 255);
+}
+
