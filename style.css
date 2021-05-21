@@ -3,10 +3,6 @@
     font-family: Helvetica;
 }
 
-.run {
-
-}
-
 .bulb {
     height: 50px;
     width: 50px;
@@ -14,19 +10,65 @@
     border-radius: 50%;
 }
 
-.green {
-    background-color: rgb(9, 252, 49);
+.bulb.green {
+    background-color: rgb(45, 255, 45);
 }
 
-.red {
-    background-color: rgb(255, 55, 55);
+.bulb.red {
+    background-color: rgb(255, 45, 45);
 }
 
-.yellow {
-    background-color: rgb(238, 255, 0);
+.bulb.yellow {
+    background-color: rgb(252, 255, 45);
 }
 
-.blue {
-    background-color: rgb(8, 177, 255);
+.bulb.blue {
+    background-color: rgb(45, 171, 255);
 }
+
+@keyframes glow-1 {
+    0%,
+    100% { box-shadow: none;}
+    50% { box-shadow: 0 0 20px 5px #08ff00}
+}
+
+@keyframes glow-2 {
+    0%,
+    100% { box-shadow: none;}
+    50% { box-shadow: 0 0 20px 5px #ff0000}
+}
+
+@keyframes glow-3 {
+    0%,
+    100% { box-shadow: none;}
+    50% { box-shadow: 0 0 20px 5px #fffb00}
+}
+
+@keyframes glow-4 {
+    0%,
+    100% { box-shadow: none;}
+    50% { box-shadow: 0 0 20px 5px #00aaff}
+}
+
+
+.bulb.animate-1 {
+    animation-duration: 2s;
+    animation-name: glow-1;
+}
+
+.bulb.animate-2 {
+    animation-duration: 2s;
+    animation-name: glow-2;
+}
+
+.bulb.animate-3 {
+    animation-duration: 2s;
+    animation-name: glow-3;
+}
+
+.bulb.animate-4 {
+    animation-duration: 2s;
+    animation-name: glow-4;
+}
+
 
